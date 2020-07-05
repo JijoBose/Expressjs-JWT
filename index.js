@@ -19,11 +19,6 @@ if (environment !== 'production') {
   app.use(logger('dev'));
 }
 
-app.use('/api/v1', (req, res, next) => {
-  res.send('Hello');
-  next();
-});
-
 const routes = require('./routes/index.js');
 
 app.use('/api/v1', routes(router));
