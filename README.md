@@ -1,2 +1,2 @@
-# 1WiredAPI
-API for post once per day
+# JWT Auth
+REST API + JWT Auth + MongoDB
